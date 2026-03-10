@@ -1,0 +1,25 @@
+{
+  "name": "wat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "scrape": "tsx src/buscar-casas.ts",
+    "debug": "tsx src/buscar-casas.ts --debug",
+    "debug-network": "tsx src/buscar-casas.ts --debug-network"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "WAT — Scraper de casas para aluguel em Itu",
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "puppeteer": "^24.38.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.5",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
